@@ -29,10 +29,13 @@ utc_date_header = "Date (UTC)"
 # the official YYYY-MM-DDTHH:MM:SS format or add timezone info, because those
 # will confuse Excel or Google Spreadsheets during import as those tools don't
 # have good date/time support.
-now_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+def now_time_string():
+    return datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
 
 
 def query_github_releases():
+    now_time = now_time_string()
+
     # Using GitHub Token is optional as releases is public. Using a token helps prevent rate limiting.
     gh_token = os.environ.get("GITHUB_TOKEN")
 
@@ -194,6 +197,8 @@ def query_github_releases():
 
 
 def query_homebrew_installs():
+    now_time = now_time_string()
+
     response = urlopen("https://formulae.brew.sh/api/formula/macvim.json")
     formula_info = json.loads(response.read())
 
