@@ -40,6 +40,7 @@ def query_github_releases():
     request = Request(url="https://api.github.com/repos/macvim-dev/macvim/releases")
     if gh_token != None:
         request.add_header("Authorization", f"Bearer {gh_token}")
+    request.add_header('User-Agent', 'macvim-download-stats')
     response = urlopen(request)
 
     releases = json.loads(response.read())
