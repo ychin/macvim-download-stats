@@ -20,6 +20,10 @@ jobs:
           ref: 'download-stats'
           path: 'stats'
 
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.x' # Need 3.11+
+
       - name: Set up Git
         run: |
           git config --global user.name 'github-actions[bot]'
