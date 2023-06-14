@@ -20,10 +20,13 @@ import sys
 
 if sys.version_info.major == 3 and sys.version_info.minor <= 10:
     # We need Python 3.11 to run properly. See notes section above.
-    print(f'Python version is too old (need to be 3.11+): {sys.version}', file=sys. stderr)
+    print(
+        f"Python version is too old (need to be 3.11+): {sys.version}", file=sys.stderr
+    )
     exit(-100)
 
 utc_date_header = "Date (UTC)"
+
 
 # Extract the current UTC time, and store in a sort-of ISO format. Don't use
 # the official YYYY-MM-DDTHH:MM:SS format or add timezone info, because those
@@ -43,7 +46,7 @@ def query_github_releases():
     request = Request(url="https://api.github.com/repos/macvim-dev/macvim/releases")
     if gh_token != None:
         request.add_header("Authorization", f"Bearer {gh_token}")
-    request.add_header('User-Agent', 'macvim-download-stats')
+    request.add_header("User-Agent", "macvim-download-stats")
     response = urlopen(request)
 
     releases = json.loads(response.read())
@@ -53,24 +56,24 @@ def query_github_releases():
     # Release info to gather in a separate table
     new_release_rows = []
     auto_release_columns = {
-        'id',
-        'tag_name',
-        'name',
-        'draft',
-        'prerelease',
-        'created_at',
-        'published_at',
+        "id",
+        "tag_name",
+        "name",
+        "draft",
+        "prerelease",
+        "created_at",
+        "published_at",
     }
     release_columns = [
-        'id',
-        'tag_name',
-        'name',
-        'author',
-        'draft',
-        'prerelease',
-        'num_assets',
-        'created_at',
-        'published_at',
+        "id",
+        "tag_name",
+        "name",
+        "author",
+        "draft",
+        "prerelease",
+        "num_assets",
+        "created_at",
+        "published_at",
     ]
 
     # Loop through all releases
@@ -83,8 +86,8 @@ def query_github_releases():
                 .astimezone(timezone.utc)
                 .strftime("%Y-%m-%d %H:%M:%S")
             )
-        release_row['author'] = release['author']['login']
-        release_row['num_assets'] = len(release['assets'])
+        release_row["author"] = release["author"]["login"]
+        release_row["num_assets"] = len(release["assets"])
         new_release_rows.append(release_row)
 
         # Add a row of download counts for each asset to the CSV. Make the CSV file
@@ -184,11 +187,13 @@ def query_github_releases():
         old_release_ids = {release["id"] for release in old_release_rows}
 
         release_rows = old_release_rows
-        release_rows += [r for r in new_release_rows if str(r['id']) not in old_release_ids]
+        release_rows += [
+            r for r in new_release_rows if str(r["id"]) not in old_release_ids
+        ]
     else:
         release_rows = new_release_rows
 
-    release_rows = sorted(release_rows, key = lambda o: o['id'])
+    release_rows = sorted(release_rows, key=lambda o: o["id"])
 
     with open(releases_info_csv_path, "w", newline="") as releases_info_file:
         writer = csv.DictWriter(releases_info_file, fieldnames=release_columns)
