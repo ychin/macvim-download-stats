@@ -1,0 +1,40 @@
+name: Query download / install stats
+
+on:
+  schedule:
+    - cron: "50 3 * * *" # 3:50 am UTC every day. Just a random time intentionally picked to be not during busy hours.
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/checkout@v3
+        with:
+          ref: 'download-stats'
+          path: 'stats'
+
+      - name: Set up Git
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+      - name: Query download stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd stats
+          ../run.py
+
+      - name: Upload stats
+        run: |
+          cd stats
+          git add .
+          git commit -m "Update download stats"
+          git push
