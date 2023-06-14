@@ -48,26 +48,39 @@ def query_github_releases():
 
     # Release info to gather in a separate table
     new_release_rows = []
+    auto_release_columns = {
+        'id',
+        'tag_name',
+        'name',
+        'draft',
+        'prerelease',
+        'created_at',
+        'published_at',
+    }
     release_columns = [
-        "id",
-        "tag_name",
-        "name",
-        "draft",
-        "prerelease",
-        "created_at",
-        "published_at",
+        'id',
+        'tag_name',
+        'name',
+        'author',
+        'draft',
+        'prerelease',
+        'num_assets',
+        'created_at',
+        'published_at',
     ]
 
     # Loop through all releases
     for release in releases:
         # Gather release info, and fix up date time to be spreadsheet parsable
-        release_row = {c: release[c] for c in release_columns}
+        release_row = {c: release[c] for c in auto_release_columns}
         for field in ["created_at", "published_at"]:
             release_row[field] = (
                 datetime.fromisoformat(release_row[field])
                 .astimezone(timezone.utc)
                 .strftime("%Y-%m-%d %H:%M:%S")
             )
+        release_row['author'] = release['author']['login']
+        release_row['num_assets'] = len(release['assets'])
         new_release_rows.append(release_row)
 
         # Add a row of download counts for each asset to the CSV. Make the CSV file
