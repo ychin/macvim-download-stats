@@ -62,7 +62,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 836722,
-      "download_count": 243,
+      "download_count": 244,
       "created_at": "2023-03-19T20:57:58Z",
       "updated_at": "2023-03-19T20:57:59Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/prerelease-176.1/176_to_176.1.delta"
@@ -96,7 +96,7 @@
       "content_type": "application/x-apple-diskimage",
       "state": "uploaded",
       "size": 25095012,
-      "download_count": 539,
+      "download_count": 540,
       "created_at": "2023-03-19T20:57:58Z",
       "updated_at": "2023-03-19T20:58:00Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/prerelease-176.1/MacVim.dmg"
