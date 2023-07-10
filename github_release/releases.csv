@@ -29,3 +29,4 @@ id,tag_name,name,author,draft,prerelease,num_assets,created_at,published_at
 91467643,release-175,MacVim Release 175,ychin,False,True,1,2023-02-07 07:01:59,2023-02-07 09:03:29
 91581659,release-176,MacVim Release 176,ychin,False,False,2,2023-02-07 11:36:07,2023-02-07 10:44:12
 96106530,prerelease-176.1,MacVim r176.1 (prerelease),ychin,False,True,2,2023-03-19 08:26:46,2023-03-19 21:07:09
+111550354,release-177,MacVim r177,ychin,False,False,4,2023-07-10 00:44:53,2023-07-10 01:52:53
