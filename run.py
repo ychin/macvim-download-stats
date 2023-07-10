@@ -193,7 +193,7 @@ def query_github_releases():
     else:
         release_rows = new_release_rows
 
-    release_rows = sorted(release_rows, key=lambda o: o["id"])
+    release_rows = sorted(release_rows, key=lambda o: int(o["id"]))
 
     with open(releases_info_csv_path, "w", newline="") as releases_info_file:
         writer = csv.DictWriter(releases_info_file, fieldnames=release_columns)
