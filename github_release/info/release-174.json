@@ -96,7 +96,7 @@
       "content_type": "image/gif",
       "state": "uploaded",
       "size": 2852667,
-      "download_count": 289715,
+      "download_count": 290026,
       "created_at": "2022-09-15T14:48:27Z",
       "updated_at": "2022-09-15T14:48:29Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-174/macvim-smooth-resize-pin-cmdline-bottom-video.gif"
@@ -130,7 +130,7 @@
       "content_type": "application/x-apple-diskimage",
       "state": "uploaded",
       "size": 24668528,
-      "download_count": 72319,
+      "download_count": 72320,
       "created_at": "2022-09-15T20:32:32Z",
       "updated_at": "2022-09-15T20:32:35Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-174/MacVim.dmg"
@@ -142,8 +142,8 @@
   "discussion_url": "https://github.com/macvim-dev/macvim/discussions/1289",
   "reactions": {
     "url": "https://api.github.com/repos/macvim-dev/macvim/releases/77262926/reactions",
-    "total_count": 21,
-    "+1": 11,
+    "total_count": 20,
+    "+1": 10,
     "-1": 0,
     "laugh": 1,
     "hooray": 4,
