@@ -96,7 +96,7 @@
       "content_type": "application/x-diskcopy",
       "state": "uploaded",
       "size": 23692879,
-      "download_count": 68641,
+      "download_count": 68642,
       "created_at": "2021-04-01T09:20:27Z",
       "updated_at": "2021-04-01T09:20:36Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/snapshot-171/MacVim.dmg"
