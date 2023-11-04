@@ -96,7 +96,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 1729886,
-      "download_count": 17001,
+      "download_count": 17002,
       "created_at": "2023-07-10T01:52:14Z",
       "updated_at": "2023-07-10T01:52:15Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-177/176_to_177.delta"
