@@ -62,7 +62,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 4466094,
-      "download_count": 151,
+      "download_count": 160,
       "created_at": "2023-10-21T05:44:36Z",
       "updated_at": "2023-10-21T05:44:37Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/prerelease-178.1/178_to_178.1.delta"
@@ -96,7 +96,7 @@
       "content_type": "application/x-apple-diskimage",
       "state": "uploaded",
       "size": 21189162,
-      "download_count": 169,
+      "download_count": 191,
       "created_at": "2023-10-21T05:44:36Z",
       "updated_at": "2023-10-21T05:44:38Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/prerelease-178.1/MacVim.dmg"
@@ -106,5 +106,17 @@
   "zipball_url": "https://api.github.com/repos/macvim-dev/macvim/zipball/prerelease-178.1",
   "body": "Updated to Vim 9.0.2043\r\n\r\nThis is a pre-release version of MacVim. To use the latest stable release, see <https://github.com/macvim-dev/macvim/releases/latest>\r\n\r\n<details><summary>What's Changed</summary>\r\n\r\n<!-- Release notes generated using configuration in .github/release.yml at prerelease-178.1 -->\r\n\r\n## What's Changed\r\n* CI: Update to Xcode 15 / macOS 13 in GitHub runner by @ychin in https://github.com/macvim-dev/macvim/pull/1434\r\n* Add cmdline completion for MacVim options: 'fuoptions', 'guifont(wide)' by @ychin in https://github.com/macvim-dev/macvim/pull/1436\r\n* Fix tabs drawing over rest of MacVim in macOS 14 Sonoma by @ychin in https://github.com/macvim-dev/macvim/pull/1440\r\n* Add option to only scroll in one direction when using trackpad by @ychin in https://github.com/macvim-dev/macvim/pull/1442\r\n* Use -O3 and link-time-optimization for published builds by @ychin in https://github.com/macvim-dev/macvim/pull/1444\r\n* Sparkle 2.5.1 by @ychin in https://github.com/macvim-dev/macvim/pull/1446\r\n* Fix macOS 14 Sonoma non-native full screen background color by @ychin in https://github.com/macvim-dev/macvim/pull/1448\r\n* Allow showing pre-release in What's New page by @ychin in https://github.com/macvim-dev/macvim/pull/1447\r\n* Fix non-native full screen show menu with notch, and changing resolution by @ychin in https://github.com/macvim-dev/macvim/pull/1450\r\n\r\n\r\n**Full Changelog**: https://github.com/macvim-dev/macvim/compare/release-178...prerelease-178.1\r\n\r\n</details>\r\n",
   "discussion_url": "https://github.com/macvim-dev/macvim/discussions/1451",
+  "reactions": {
+    "url": "https://api.github.com/repos/macvim-dev/macvim/releases/126101055/reactions",
+    "total_count": 1,
+    "+1": 0,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 1,
+    "rocket": 0,
+    "eyes": 0
+  },
   "mentions_count": 1
 }
