@@ -62,7 +62,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 2344046,
-      "download_count": 4062,
+      "download_count": 4085,
       "created_at": "2023-09-12T10:41:02Z",
       "updated_at": "2023-09-12T10:41:03Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-178/176_to_178.delta"
@@ -96,7 +96,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 1419422,
-      "download_count": 15843,
+      "download_count": 15872,
       "created_at": "2023-09-12T10:41:02Z",
       "updated_at": "2023-09-12T10:41:03Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-178/177_to_178.delta"
@@ -130,7 +130,7 @@
       "content_type": "application/x-apple-diskimage",
       "state": "uploaded",
       "size": 20500004,
-      "download_count": 26509,
+      "download_count": 26719,
       "created_at": "2023-09-12T10:41:02Z",
       "updated_at": "2023-09-12T10:41:04Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-178/MacVim.dmg"
@@ -164,7 +164,7 @@
       "content_type": "application/x-apple-diskimage",
       "state": "uploaded",
       "size": 21596471,
-      "download_count": 1245,
+      "download_count": 1258,
       "created_at": "2023-09-12T10:41:02Z",
       "updated_at": "2023-09-12T10:41:04Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-178/MacVim_10.9.dmg"
