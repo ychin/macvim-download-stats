@@ -130,7 +130,7 @@
       "content_type": "application/x-apple-diskimage",
       "state": "uploaded",
       "size": 24668528,
-      "download_count": 72706,
+      "download_count": 72707,
       "created_at": "2022-09-15T20:32:32Z",
       "updated_at": "2022-09-15T20:32:35Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-174/MacVim.dmg"
