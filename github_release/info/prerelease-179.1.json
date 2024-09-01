@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/macvim-dev/macvim/releases/21083507",
-  "assets_url": "https://api.github.com/repos/macvim-dev/macvim/releases/21083507/assets",
-  "upload_url": "https://uploads.github.com/repos/macvim-dev/macvim/releases/21083507/assets{?name,label}",
-  "html_url": "https://github.com/macvim-dev/macvim/releases/tag/snapshot-161",
-  "id": 21083507,
+  "url": "https://api.github.com/repos/macvim-dev/macvim/releases/172885941",
+  "assets_url": "https://api.github.com/repos/macvim-dev/macvim/releases/172885941/assets",
+  "upload_url": "https://uploads.github.com/repos/macvim-dev/macvim/releases/172885941/assets{?name,label}",
+  "html_url": "https://github.com/macvim-dev/macvim/releases/tag/prerelease-179.1",
+  "id": 172885941,
   "author": {
     "login": "ychin",
     "id": 1217449,
@@ -24,21 +24,21 @@
     "type": "User",
     "site_admin": false
   },
-  "node_id": "MDc6UmVsZWFzZTIxMDgzNTA3",
-  "tag_name": "snapshot-161",
-  "target_commitish": "ec8d47914e8e1fba0d05aa1176539d651df15b83",
-  "name": "MacVim Snapshot 161",
+  "node_id": "RE_kwDOAFYU4c4KTge1",
+  "tag_name": "prerelease-179.1",
+  "target_commitish": "master",
+  "name": "MacVim r179.1 (prerelease)",
   "draft": false,
-  "prerelease": false,
-  "created_at": "2019-10-30T11:34:58Z",
-  "published_at": "2019-10-30T13:02:03Z",
+  "prerelease": true,
+  "created_at": "2024-08-30T21:50:53Z",
+  "published_at": "2024-08-31T09:22:50Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/macvim-dev/macvim/releases/assets/15841774",
-      "id": 15841774,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDE1ODQxNzc0",
-      "name": "160_to_161.delta",
-      "label": null,
+      "url": "https://api.github.com/repos/macvim-dev/macvim/releases/assets/189536829",
+      "id": 189536829,
+      "node_id": "RA_kwDOAFYU4c4LTBo9",
+      "name": "179_to_179.1.delta",
+      "label": "",
       "uploader": {
         "login": "ychin",
         "id": 1217449,
@@ -61,18 +61,18 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 249609,
-      "download_count": 8270,
-      "created_at": "2019-10-30T13:39:22Z",
-      "updated_at": "2019-10-30T13:39:26Z",
-      "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/snapshot-161/160_to_161.delta"
+      "size": 2389826,
+      "download_count": 19,
+      "created_at": "2024-08-31T09:20:49Z",
+      "updated_at": "2024-08-31T09:20:50Z",
+      "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/prerelease-179.1/179_to_179.1.delta"
     },
     {
-      "url": "https://api.github.com/repos/macvim-dev/macvim/releases/assets/15840737",
-      "id": 15840737,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDE1ODQwNzM3",
+      "url": "https://api.github.com/repos/macvim-dev/macvim/releases/assets/189536828",
+      "id": 189536828,
+      "node_id": "RA_kwDOAFYU4c4LTBo8",
       "name": "MacVim.dmg",
-      "label": null,
+      "label": "",
       "uploader": {
         "login": "ychin",
         "id": 1217449,
@@ -93,16 +93,18 @@
         "type": "User",
         "site_admin": false
       },
-      "content_type": "application/x-diskcopy",
+      "content_type": "application/x-apple-diskimage",
       "state": "uploaded",
-      "size": 17224292,
-      "download_count": 91370,
-      "created_at": "2019-10-30T13:01:37Z",
-      "updated_at": "2019-10-30T13:01:49Z",
-      "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/snapshot-161/MacVim.dmg"
+      "size": 21900698,
+      "download_count": 25,
+      "created_at": "2024-08-31T09:20:49Z",
+      "updated_at": "2024-08-31T09:20:50Z",
+      "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/prerelease-179.1/MacVim.dmg"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/macvim-dev/macvim/tarball/snapshot-161",
-  "zipball_url": "https://api.github.com/repos/macvim-dev/macvim/zipball/snapshot-161",
-  "body": "Vim patch 8.1.2234\r\n\r\nFixes:\r\n\r\n- Fix scripting languages not working (e.g. Python) in binary releases\r\n  by using the correct entitlements. #979\r\n\r\nTargets macOS 10.9+\r\n\r\nScript interfaces have compatibility with these versions:\r\n\r\n- Lua 5.3\r\n- Perl 5.18\r\n- Python2 2.7\r\n- Python3 3.7\r\n- Ruby 2.6"
+  "tarball_url": "https://api.github.com/repos/macvim-dev/macvim/tarball/prerelease-179.1",
+  "zipball_url": "https://api.github.com/repos/macvim-dev/macvim/zipball/prerelease-179.1",
+  "body": "Updated to Vim 9.1.0695\r\n\r\nThis is a pre-release version of MacVim. To use the latest stable release, see <https://github.com/macvim-dev/macvim/releases/latest>\r\n\r\n<details><summary>What's Changed</summary>\r\n\r\n<!-- Release notes generated using configuration in .github/release.yml at prerelease-179.1 -->\r\n\r\n## What's Changed\r\n* Update CI to remove macOS-11 which has been removed from GitHub Actions by @ychin in https://github.com/macvim-dev/macvim/pull/1493\r\n* Proposal: change x to \u00d7 in title bar resize message by @sfsam in https://github.com/macvim-dev/macvim/pull/1488\r\n* Sparkle 2.6.4 by @ychin in https://github.com/macvim-dev/macvim/pull/1494\r\n\r\n\r\n**Full Changelog**: https://github.com/macvim-dev/macvim/compare/release-179...prerelease-179.1\r\n\r\n</details>\r\n",
+  "discussion_url": "https://github.com/macvim-dev/macvim/discussions/1495",
+  "mentions_count": 2
 }
