@@ -29,7 +29,7 @@
   "target_commitish": "master",
   "name": "MacVim r180",
   "draft": false,
-  "prerelease": true,
+  "prerelease": false,
   "created_at": "2024-09-11T06:03:55Z",
   "published_at": "2024-09-11T08:53:00Z",
   "assets": [
@@ -62,7 +62,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 5529302,
-      "download_count": 0,
+      "download_count": 10,
       "created_at": "2024-09-11T08:50:04Z",
       "updated_at": "2024-09-11T08:50:05Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-180/178_to_180.delta"
@@ -96,7 +96,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 635938,
-      "download_count": 1,
+      "download_count": 8,
       "created_at": "2024-09-11T08:50:04Z",
       "updated_at": "2024-09-11T08:50:05Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-180/179.1_to_180.delta"
@@ -130,7 +130,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 2441018,
-      "download_count": 0,
+      "download_count": 286,
       "created_at": "2024-09-11T08:50:04Z",
       "updated_at": "2024-09-11T08:50:05Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-180/179_to_180.delta"
@@ -164,7 +164,7 @@
       "content_type": "application/x-apple-diskimage",
       "state": "uploaded",
       "size": 21905896,
-      "download_count": 5,
+      "download_count": 104,
       "created_at": "2024-09-11T08:50:04Z",
       "updated_at": "2024-09-11T08:50:06Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-180/MacVim.dmg"
@@ -198,7 +198,7 @@
       "content_type": "application/x-apple-diskimage",
       "state": "uploaded",
       "size": 22065343,
-      "download_count": 2,
+      "download_count": 7,
       "created_at": "2024-09-11T08:50:04Z",
       "updated_at": "2024-09-11T08:50:06Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-180/MacVim_10.9.dmg"
@@ -208,5 +208,17 @@
   "zipball_url": "https://api.github.com/repos/macvim-dev/macvim/zipball/release-180",
   "body": "Updated to Vim 9.1.0727\r\n\r\n[![MacVim release-180 download](https://img.shields.io/github/downloads/macvim-dev/macvim/release-180/MacVim.dmg?label=macOS%2010.13%2B)](https://github.com/macvim-dev/macvim/releases/download/release-180/MacVim.dmg) [![MacVim release-180 download (10.9-10.12)](https://img.shields.io/github/downloads/macvim-dev/macvim/release-180/MacVim_10.9.dmg?label=macOS%2010.9-10.12)](https://github.com/macvim-dev/macvim/releases/download/release-180/MacVim_10.9.dmg)\r\n\r\nThis update mostly syncs to new upstream Vim version, along with small fixes.\r\n\r\nFeatures\r\n====================\r\n\r\nNew Vim features\r\n--------------------\r\n\r\n- Vim now supports the XDG Base Directory Specification. You can now put your vimrc and plugins in `~/.config/vim` intsead of `~/.vim` / `~/.vimrc`. See [`:h xdg-base-dir`](https://macvim.org/docs/redirect.html?tag=xdg-base-dir). [v9.1.0327](https://github.com/vim/vim/commit/c9df1fb35a1866901c32df37dd39c8b39dbdb64a)\r\n- Auto completion\r\n    - Matched text in a completion popup menu will now be highlighted [v9.1.0476](https://github.com/vim/vim/commit/40c1c3317d92f8c2adadf744fab72e4458e2a9fa)\r\n\r\n      <img width=\"147\" alt=\"image\" src=\"https://github.com/user-attachments/assets/9dff8254-74ca-455d-b65e-50ed87e30961\">\r\n\r\n    - Insert mode fuzzy completion (`:set completopt+=fuzzy`). [v9.1.0463](https://github.com/vim/vim/commit/a218cc6cdabae1113647b817c4eefc2b60a6902f) / [v9.1.0598](https://github.com/vim/vim/commit/8159fb18a92e9a9f5e35201bd92bf651f4d5835c)\r\n- New options:\r\n    - `tabclose`: specifies tab closing behavior. [v9.1.0572](https://github.com/vim/vim/commit/5247b0b92e191a046b034171a3b34031e317735f)\r\n    - `winfixbuf`: fixes a window to a buffer and prevent navigating away from it. [v9.1.0147](https://github.com/vim/vim/commit/215703563757a4464907ead6fb9edaeb7f430bea)\r\n- New functions:\r\n    - `getregion()` / `getregionpos()`: Helps retrieve the text selected in a visual selection. [v9.1.0120](https://github.com/vim/vim/commit/3f905ab3c4f66562f4a224bf00f49d98a0b0da91) [v9.1.0142](https://github.com/vim/vim/commit/19b718828d8d5fab52d94c6cdba694641879ab38) [v9.1.0394](https://github.com/vim/vim/commit/b4757e627e6c83d1c8e5535d4887a82d6a5efdd0)\r\n    - `diff()`: Diff provided strings. [v9.1.0071](https://github.com/vim/vim/commit/fa37835b8c0ed0f83952978fca4c332335ca7c46)\r\n    - `gettext()` / `bindtextdomain()`: Vim plugins can now add localized messages. [v9.1.0509](https://github.com/vim/vim/commit/ce0ef910df837b9b961f007a0a35064cad85188b).\r\n    - `filecopy()`: Copy a file using Vim script. [v9.1.0465](https://github.com/vim/vim/commit/60c8743ab6c90e402e6ed49d27455ef7e5698abe)\r\n- New bundled optional plugins (use `packadd` to enable them):\r\n    - comment: toggle code comments on/off. vim/vim#14634\r\n    - nohlsearch: simple package to automatically set `nohlsearch`. vim/vim#15042\r\n- Highlighting for diff files are back to normal. [v9.1.0016](https://github.com/vim/vim/commit/124371c5a149a8c0c75c04b6c90ac11e71a0aa97)\r\n- Vim9 script improvements.\r\n- Miscellaneous smoothscroll, termdebug, security fixes.\r\n- Other platforms (these don't affect MacVim and included for reference only):\r\n    - GTK Vim GUI can now also use `<D-...>` to map super keys, similar to MacVim for its Cmd key mappings. This should allow sharing cross-platform configs easier. [v9.1.0058](https://github.com/vim/vim/commit/92e90a1e102825aa9149262cacfc991264db05df)\r\n    - Vim GUI now supports Wayland in Linux. [v9.1.0064](https://github.com/vim/vim/commit/6e0a18f82bd04a45e9682523c42af9cbbc37684c)\r\n\r\nMisc\r\n--------------------\r\n\r\n- When resizing MacVim, the title bar's message looks a little nicer now. #1488 by @sfsam\r\n- Copyright disclaimer in About MacVim no longer shows a year. #1497\r\n\r\nGeneral\r\n====================\r\n\r\n- Sparkle (updater for MacVim) is now updated to 2.6.4. For legacy builds it's now updated to 1.27.3.  #1494\r\n\r\nFixes\r\n====================\r\n\r\n- Fixed dragging tabs to reorder them resulting in a crash. #1499\r\n\r\n<details><summary>Compatibility</summary>\r\n\r\nCompatibility\r\n====================\r\n\r\nRequires macOS 10.9 or above. (10.9 - 10.12 requires downloading a separate legacy build)\r\n\r\nScript interfaces have compatibility with these versions:\r\n\r\n- Lua 5.4\r\n- Perl 5.30\r\n- Python2 2.7\r\n- Python3 3.9 or above\r\n- Ruby 3.3\r\n\r\n</details>\r\n",
   "discussion_url": "https://github.com/macvim-dev/macvim/discussions/1500",
+  "reactions": {
+    "url": "https://api.github.com/repos/macvim-dev/macvim/releases/174497358/reactions",
+    "total_count": 1,
+    "+1": 1,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 0,
+    "eyes": 0
+  },
   "mentions_count": 1
 }
