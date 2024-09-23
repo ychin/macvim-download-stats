@@ -62,7 +62,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 3283209,
-      "download_count": 17673,
+      "download_count": 17674,
       "created_at": "2020-08-15T21:27:41Z",
       "updated_at": "2020-08-15T21:27:49Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/snapshot-165/163_to_165.delta"
@@ -96,7 +96,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 19978260,
-      "download_count": 16637,
+      "download_count": 16640,
       "created_at": "2020-08-15T21:27:53Z",
       "updated_at": "2020-08-15T21:27:55Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/snapshot-165/MacVim.dmg"
@@ -130,7 +130,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 19930481,
-      "download_count": 318,
+      "download_count": 319,
       "created_at": "2020-08-15T21:27:49Z",
       "updated_at": "2020-08-15T21:27:53Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/snapshot-165/MacVim_unsigned.dmg"
