@@ -22,6 +22,7 @@
     "events_url": "https://api.github.com/users/ychin/events{/privacy}",
     "received_events_url": "https://api.github.com/users/ychin/received_events",
     "type": "User",
+    "user_view_type": "public",
     "site_admin": false
   },
   "node_id": "RE_kwDOAFYU4c4KZp5O",
@@ -57,12 +58,13 @@
         "events_url": "https://api.github.com/users/ychin/events{/privacy}",
         "received_events_url": "https://api.github.com/users/ychin/received_events",
         "type": "User",
+        "user_view_type": "public",
         "site_admin": false
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 5529302,
-      "download_count": 867,
+      "download_count": 877,
       "created_at": "2024-09-11T08:50:04Z",
       "updated_at": "2024-09-11T08:50:05Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-180/178_to_180.delta"
@@ -91,6 +93,7 @@
         "events_url": "https://api.github.com/users/ychin/events{/privacy}",
         "received_events_url": "https://api.github.com/users/ychin/received_events",
         "type": "User",
+        "user_view_type": "public",
         "site_admin": false
       },
       "content_type": "application/octet-stream",
@@ -125,12 +128,13 @@
         "events_url": "https://api.github.com/users/ychin/events{/privacy}",
         "received_events_url": "https://api.github.com/users/ychin/received_events",
         "type": "User",
+        "user_view_type": "public",
         "site_admin": false
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 2441018,
-      "download_count": 16676,
+      "download_count": 16829,
       "created_at": "2024-09-11T08:50:04Z",
       "updated_at": "2024-09-11T08:50:05Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-180/179_to_180.delta"
@@ -159,12 +163,13 @@
         "events_url": "https://api.github.com/users/ychin/events{/privacy}",
         "received_events_url": "https://api.github.com/users/ychin/received_events",
         "type": "User",
+        "user_view_type": "public",
         "site_admin": false
       },
       "content_type": "application/x-apple-diskimage",
       "state": "uploaded",
       "size": 21905896,
-      "download_count": 12368,
+      "download_count": 12699,
       "created_at": "2024-09-11T08:50:04Z",
       "updated_at": "2024-09-11T08:50:06Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-180/MacVim.dmg"
@@ -193,12 +198,13 @@
         "events_url": "https://api.github.com/users/ychin/events{/privacy}",
         "received_events_url": "https://api.github.com/users/ychin/received_events",
         "type": "User",
+        "user_view_type": "public",
         "site_admin": false
       },
       "content_type": "application/x-apple-diskimage",
       "state": "uploaded",
       "size": 22065343,
-      "download_count": 372,
+      "download_count": 381,
       "created_at": "2024-09-11T08:50:04Z",
       "updated_at": "2024-09-11T08:50:06Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-180/MacVim_10.9.dmg"
