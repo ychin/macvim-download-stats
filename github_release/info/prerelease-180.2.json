@@ -64,7 +64,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 1024154,
-      "download_count": 54,
+      "download_count": 57,
       "created_at": "2025-02-01T12:12:05Z",
       "updated_at": "2025-02-01T12:12:05Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/prerelease-180.2/180.1_to_180.2.delta"
@@ -99,7 +99,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 3172170,
-      "download_count": 63,
+      "download_count": 68,
       "created_at": "2025-02-01T12:12:05Z",
       "updated_at": "2025-02-01T12:12:05Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/prerelease-180.2/180_to_180.2.delta"
@@ -134,7 +134,7 @@
       "content_type": "application/x-apple-diskimage",
       "state": "uploaded",
       "size": 22169475,
-      "download_count": 197,
+      "download_count": 207,
       "created_at": "2025-02-01T12:12:05Z",
       "updated_at": "2025-02-01T12:12:06Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/prerelease-180.2/MacVim.dmg"
@@ -144,5 +144,17 @@
   "zipball_url": "https://api.github.com/repos/macvim-dev/macvim/zipball/prerelease-180.2",
   "body": "Updated to Vim 9.1.1050\n\nNote: This update contains a completely new GUI tabs implementation. If you have GUI tabs disabled with `set go-=e` I recommend giving the new tabs a try!\n\nThis is a pre-release version of MacVim. To use the latest stable release, see <https://github.com/macvim-dev/macvim/releases/latest>\n\n<details><summary>What's Changed</summary>\n\n<!-- Release notes generated using configuration in .github/release.yml at prerelease-180.2 -->\n\n## What's Changed\n* Tabs by @sfsam in https://github.com/macvim-dev/macvim/pull/1120\n* Make GUI tabs track Vim tabs in updates and animate correctly by @ychin in https://github.com/macvim-dev/macvim/pull/1535\n* Tabs: Expose option to show scroll tab buttons, fix tab scroll behavior, fix memory leaks, cache images and other cleanups by @ychin in https://github.com/macvim-dev/macvim/pull/1536\n* MMTabline: Localize button strings by @ychin in https://github.com/macvim-dev/macvim/pull/1537\n* MMTabline: Add right-to-left (RTL) locale support by @ychin in https://github.com/macvim-dev/macvim/pull/1538\n* MMTabline: Add Vim colorscheme / window use tab fill color support by @ychin in https://github.com/macvim-dev/macvim/pull/1539\n\n\n**Full Changelog**: https://github.com/macvim-dev/macvim/compare/prerelease-180.1...prerelease-180.2\n\n</details>\n",
   "discussion_url": "https://github.com/macvim-dev/macvim/discussions/1543",
+  "reactions": {
+    "url": "https://api.github.com/repos/macvim-dev/macvim/releases/197920502/reactions",
+    "total_count": 1,
+    "+1": 1,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 0,
+    "eyes": 0
+  },
   "mentions_count": 2
 }
