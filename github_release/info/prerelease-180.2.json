@@ -99,7 +99,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 3172170,
-      "download_count": 68,
+      "download_count": 73,
       "created_at": "2025-02-01T12:12:05Z",
       "updated_at": "2025-02-01T12:12:05Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/prerelease-180.2/180_to_180.2.delta"
@@ -134,7 +134,7 @@
       "content_type": "application/x-apple-diskimage",
       "state": "uploaded",
       "size": 22169475,
-      "download_count": 207,
+      "download_count": 216,
       "created_at": "2025-02-01T12:12:05Z",
       "updated_at": "2025-02-01T12:12:06Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/prerelease-180.2/MacVim.dmg"
@@ -146,8 +146,8 @@
   "discussion_url": "https://github.com/macvim-dev/macvim/discussions/1543",
   "reactions": {
     "url": "https://api.github.com/repos/macvim-dev/macvim/releases/197920502/reactions",
-    "total_count": 1,
-    "+1": 1,
+    "total_count": 2,
+    "+1": 2,
     "-1": 0,
     "laugh": 0,
     "hooray": 0,
