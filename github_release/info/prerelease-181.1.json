@@ -64,7 +64,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 1340966,
-      "download_count": 45,
+      "download_count": 53,
       "created_at": "2025-03-28T10:15:37Z",
       "updated_at": "2025-03-28T10:15:37Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/prerelease-181.1/181_to_181.1.delta"
@@ -99,7 +99,7 @@
       "content_type": "application/x-apple-diskimage",
       "state": "uploaded",
       "size": 23917897,
-      "download_count": 31,
+      "download_count": 42,
       "created_at": "2025-03-28T10:15:37Z",
       "updated_at": "2025-03-28T10:15:39Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/prerelease-181.1/MacVim.dmg"
@@ -109,5 +109,17 @@
   "zipball_url": "https://api.github.com/repos/macvim-dev/macvim/zipball/prerelease-181.1",
   "body": "Updated to Vim 9.1.1251\r\n\r\nThis Vim update contains a new diff highlight mode to allow per-character/word diff from [v9.1.1243](https://github.com/vim/vim/commit/9943d4790e42721a6777da9e12637aa595ba4965) (use `:set diffopt+=inline:char` to enable). Feel free to try it out and use it as a Git diff tool! (`git difftool --tool=gvimdiff`)\r\n\r\nThis is a pre-release version of MacVim. To use the latest stable release, see <https://github.com/macvim-dev/macvim/releases/latest>\r\n\r\n<details><summary>What's Changed</summary>\r\n\r\n<!-- Release notes generated using configuration in .github/release.yml at prerelease-181.1 -->\r\n\r\n## What's Changed\r\n* Support extra side mouse buttons in MacVim (X1 and X2) by @ychin in https://github.com/macvim-dev/macvim/pull/1534\r\n* Add better scroll wheel support and option to disable acceleration by @ychin in https://github.com/macvim-dev/macvim/pull/1566\r\n* Remove Colors.plist and fix CI by @ychin in https://github.com/macvim-dev/macvim/pull/1568\r\n* Fix macOS services no longer able to insert texts in non-Visual modes by @ychin in https://github.com/macvim-dev/macvim/pull/1571\r\n\r\n\r\n**Full Changelog**: https://github.com/macvim-dev/macvim/compare/release-181...prerelease-181.1\r\n\r\n</details>\r\n",
   "discussion_url": "https://github.com/macvim-dev/macvim/discussions/1572",
+  "reactions": {
+    "url": "https://api.github.com/repos/macvim-dev/macvim/releases/208910665/reactions",
+    "total_count": 1,
+    "+1": 0,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 1,
+    "rocket": 0,
+    "eyes": 0
+  },
   "mentions_count": 1
 }
