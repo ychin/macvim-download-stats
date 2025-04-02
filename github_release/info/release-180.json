@@ -169,7 +169,7 @@
       "content_type": "application/x-apple-diskimage",
       "state": "uploaded",
       "size": 21905896,
-      "download_count": 43805,
+      "download_count": 43807,
       "created_at": "2024-09-11T08:50:04Z",
       "updated_at": "2024-09-11T08:50:06Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-180/MacVim.dmg"
@@ -204,7 +204,7 @@
       "content_type": "application/x-apple-diskimage",
       "state": "uploaded",
       "size": 22065343,
-      "download_count": 1556,
+      "download_count": 1558,
       "created_at": "2024-09-11T08:50:04Z",
       "updated_at": "2024-09-11T08:50:06Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-180/MacVim_10.9.dmg"
