@@ -65,7 +65,7 @@
       "state": "uploaded",
       "size": 1024154,
       "digest": null,
-      "download_count": 59,
+      "download_count": 60,
       "created_at": "2025-02-01T12:12:05Z",
       "updated_at": "2025-02-01T12:12:05Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/prerelease-180.2/180.1_to_180.2.delta"
