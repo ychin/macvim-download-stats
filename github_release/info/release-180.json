@@ -173,7 +173,7 @@
       "state": "uploaded",
       "size": 21905896,
       "digest": null,
-      "download_count": 43885,
+      "download_count": 43886,
       "created_at": "2024-09-11T08:50:04Z",
       "updated_at": "2024-09-11T08:50:06Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-180/MacVim.dmg"
