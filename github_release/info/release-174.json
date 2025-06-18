@@ -137,7 +137,7 @@
       "state": "uploaded",
       "size": 24668528,
       "digest": null,
-      "download_count": 72776,
+      "download_count": 72777,
       "created_at": "2022-09-15T20:32:32Z",
       "updated_at": "2022-09-15T20:32:35Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-174/MacVim.dmg"
