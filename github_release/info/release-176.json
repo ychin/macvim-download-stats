@@ -65,7 +65,7 @@
       "state": "uploaded",
       "size": 25057803,
       "digest": null,
-      "download_count": 71609,
+      "download_count": 71610,
       "created_at": "2023-02-07T12:52:21Z",
       "updated_at": "2023-02-07T12:52:23Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-176/MacVim.dmg"
