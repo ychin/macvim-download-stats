@@ -101,7 +101,7 @@
       "state": "uploaded",
       "size": 25095012,
       "digest": null,
-      "download_count": 568,
+      "download_count": 569,
       "created_at": "2023-03-19T20:57:58Z",
       "updated_at": "2023-03-19T20:58:00Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/prerelease-176.1/MacVim.dmg"

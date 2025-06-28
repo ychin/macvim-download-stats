@@ -101,7 +101,7 @@
       "state": "uploaded",
       "size": 23692879,
       "digest": null,
-      "download_count": 68685,
+      "download_count": 68686,
       "created_at": "2021-04-01T09:20:27Z",
       "updated_at": "2021-04-01T09:20:36Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/snapshot-171/MacVim.dmg"
