@@ -65,7 +65,7 @@
       "state": "uploaded",
       "size": 5529302,
       "digest": null,
-      "download_count": 1822,
+      "download_count": 1823,
       "created_at": "2024-09-11T08:50:04Z",
       "updated_at": "2024-09-11T08:50:05Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-180/178_to_180.delta"
