@@ -30,6 +30,7 @@
   "target_commitish": "2b9a6a1d8ec8b15ea5ce4452eae0dc4907392147",
   "name": "MacVim Snapshot 163",
   "draft": false,
+  "immutable": false,
   "prerelease": false,
   "created_at": "2020-04-12T00:33:22Z",
   "published_at": "2020-04-12T06:40:32Z",

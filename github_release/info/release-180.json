@@ -30,6 +30,7 @@
   "target_commitish": "master",
   "name": "MacVim r180",
   "draft": false,
+  "immutable": false,
   "prerelease": false,
   "created_at": "2024-09-11T06:03:55Z",
   "published_at": "2024-09-11T08:53:00Z",
@@ -173,7 +174,7 @@
       "state": "uploaded",
       "size": 21905896,
       "digest": null,
-      "download_count": 43907,
+      "download_count": 43911,
       "created_at": "2024-09-11T08:50:04Z",
       "updated_at": "2024-09-11T08:50:06Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-180/MacVim.dmg"
@@ -209,7 +210,7 @@
       "state": "uploaded",
       "size": 22065343,
       "digest": null,
-      "download_count": 1645,
+      "download_count": 1649,
       "created_at": "2024-09-11T08:50:04Z",
       "updated_at": "2024-09-11T08:50:06Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-180/MacVim_10.9.dmg"

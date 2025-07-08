@@ -30,6 +30,7 @@
   "target_commitish": "master",
   "name": "MacVim Release 174",
   "draft": false,
+  "immutable": false,
   "prerelease": false,
   "created_at": "2022-09-15T18:56:43Z",
   "published_at": "2022-09-15T20:33:36Z",

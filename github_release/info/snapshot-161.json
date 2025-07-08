@@ -30,6 +30,7 @@
   "target_commitish": "ec8d47914e8e1fba0d05aa1176539d651df15b83",
   "name": "MacVim Snapshot 161",
   "draft": false,
+  "immutable": false,
   "prerelease": false,
   "created_at": "2019-10-30T11:34:58Z",
   "published_at": "2019-10-30T13:02:03Z",
