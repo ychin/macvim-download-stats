@@ -174,7 +174,7 @@
       "state": "uploaded",
       "size": 21426552,
       "digest": null,
-      "download_count": 72098,
+      "download_count": 72103,
       "created_at": "2024-01-04T08:42:15Z",
       "updated_at": "2024-01-04T08:42:17Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-179/MacVim.dmg"
@@ -210,7 +210,7 @@
       "state": "uploaded",
       "size": 21836785,
       "digest": null,
-      "download_count": 3607,
+      "download_count": 3623,
       "created_at": "2024-01-04T08:42:15Z",
       "updated_at": "2024-01-04T08:42:17Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-179/MacVim_10.9.dmg"
