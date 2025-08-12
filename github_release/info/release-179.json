@@ -33,6 +33,7 @@
   "immutable": false,
   "prerelease": false,
   "created_at": "2024-01-04T03:03:05Z",
+  "updated_at": "2024-01-05T06:01:01Z",
   "published_at": "2024-01-05T05:54:03Z",
   "assets": [
     {
@@ -174,7 +175,7 @@
       "state": "uploaded",
       "size": 21426552,
       "digest": null,
-      "download_count": 72229,
+      "download_count": 72234,
       "created_at": "2024-01-04T08:42:15Z",
       "updated_at": "2024-01-04T08:42:17Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-179/MacVim.dmg"
@@ -210,7 +211,7 @@
       "state": "uploaded",
       "size": 21836785,
       "digest": null,
-      "download_count": 3693,
+      "download_count": 3695,
       "created_at": "2024-01-04T08:42:15Z",
       "updated_at": "2024-01-04T08:42:17Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-179/MacVim_10.9.dmg"
