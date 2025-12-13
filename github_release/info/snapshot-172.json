@@ -115,13 +115,13 @@
   "discussion_url": "https://github.com/macvim-dev/macvim/discussions/1210",
   "reactions": {
     "url": "https://api.github.com/repos/macvim-dev/macvim/releases/50182582/reactions",
-    "total_count": 53,
+    "total_count": 52,
     "+1": 11,
     "-1": 0,
     "laugh": 0,
     "hooray": 18,
     "confused": 0,
-    "heart": 21,
+    "heart": 20,
     "rocket": 3,
     "eyes": 0
   }
