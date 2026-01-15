@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 2000950,
       "digest": "sha256:86066f6f4d989f965109238f6dbdefb81dd8c6e6963daaa9d915885bc6488495",
-      "download_count": 55,
+      "download_count": 64,
       "created_at": "2026-01-12T02:18:06Z",
       "updated_at": "2026-01-12T02:18:07Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/prerelease-182.1/182_to_182.1.delta"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 25383709,
       "digest": "sha256:436ff0a5343bb9c8c6298980806be1a59b561c9fe9bff2949a2f9ddb1789ea27",
-      "download_count": 37,
+      "download_count": 49,
       "created_at": "2026-01-12T02:18:06Z",
       "updated_at": "2026-01-12T02:18:08Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/prerelease-182.1/MacVim.dmg"
@@ -113,5 +113,17 @@
   "zipball_url": "https://api.github.com/repos/macvim-dev/macvim/zipball/prerelease-182.1",
   "body": "Updated to Vim 9.1.2068\n\nThis is a pre-release version of MacVim. To use the latest stable release, see <https://github.com/macvim-dev/macvim/releases/latest>\n\n<details><summary>What's Changed</summary>\n\n<!-- Release notes generated using configuration in .github/release.yml at prerelease-182.1 -->\n\n## What's Changed\n* Whats New page use non-persistent data store by @ychin in https://github.com/macvim-dev/macvim/pull/1619\n* Build MacVim binary release with GNU iconv instead of Apple iconv by @ychin in https://github.com/macvim-dev/macvim/pull/1626\n\n\n**Full Changelog**: https://github.com/macvim-dev/macvim/compare/release-182...prerelease-182.1\n\n</details>\n",
   "discussion_url": "https://github.com/macvim-dev/macvim/discussions/1627",
+  "reactions": {
+    "url": "https://api.github.com/repos/macvim-dev/macvim/releases/275874338/reactions",
+    "total_count": 1,
+    "+1": 0,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 1,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 0,
+    "eyes": 0
+  },
   "mentions_count": 1
 }
