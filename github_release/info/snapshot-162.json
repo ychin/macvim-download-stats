@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 972502,
       "digest": null,
-      "download_count": 22269,
+      "download_count": 22270,
       "created_at": "2020-03-03T13:00:13Z",
       "updated_at": "2020-03-03T13:00:14Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/snapshot-162/161_to_162.delta"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 17357286,
       "digest": null,
-      "download_count": 25006,
+      "download_count": 25008,
       "created_at": "2020-03-03T12:54:36Z",
       "updated_at": "2020-03-03T12:54:48Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/snapshot-162/MacVim.dmg"
