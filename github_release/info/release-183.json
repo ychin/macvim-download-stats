@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 3765350,
       "digest": "sha256:04b91039b2bf84dbcea464088287297b0ebd64f24d851deeee3dde22b3954f6c",
-      "download_count": 21015,
+      "download_count": 21075,
       "created_at": "2026-04-08T06:56:24Z",
       "updated_at": "2026-04-08T06:56:25Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-183/182_to_183.delta"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 25939870,
       "digest": "sha256:c27fb8948328074dcb81f45b7d88ff4e123a86c06eaf3d5b330369bc39ffab69",
-      "download_count": 31905,
+      "download_count": 32238,
       "created_at": "2026-04-08T06:56:24Z",
       "updated_at": "2026-04-08T06:56:27Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-183/MacVim.dmg"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 26764318,
       "digest": "sha256:f304e0a26fcbfae465bfbf32dd31542af02bd388bf67cd2a4830f48326e0f989",
-      "download_count": 828,
+      "download_count": 831,
       "created_at": "2026-04-08T06:56:24Z",
       "updated_at": "2026-04-08T06:56:27Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-183/MacVim_10.9.dmg"
