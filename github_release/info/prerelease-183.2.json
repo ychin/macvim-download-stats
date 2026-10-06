@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 1746998,
       "digest": "sha256:e4c8f9e3a0ff511f1261821804397e72d6f30e2321e2ecf7d0fbc8aecd9bae03",
-      "download_count": 51,
+      "download_count": 53,
       "created_at": "2026-09-29T06:31:03Z",
       "updated_at": "2026-09-29T06:31:04Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/prerelease-183.2/183.1_to_183.2.delta"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 2277714,
       "digest": "sha256:dedd1322cb0ccddf0fe6f636ff0326b313d5c5e6afcfe279d88ee214a91912d3",
-      "download_count": 14,
+      "download_count": 17,
       "created_at": "2026-09-29T06:31:03Z",
       "updated_at": "2026-09-29T06:31:04Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/prerelease-183.2/183_to_183.2.delta"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 26045339,
       "digest": "sha256:fabc9690acdfa8af515ff8572f3483b51469de6493f9ce5d098295b5ccd221da",
-      "download_count": 58,
+      "download_count": 62,
       "created_at": "2026-09-29T06:31:03Z",
       "updated_at": "2026-09-29T06:31:05Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/prerelease-183.2/MacVim.dmg"
