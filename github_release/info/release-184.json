@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 2408790,
       "digest": "sha256:6e2168e2451f4ac7a238df6c885667b30e90736132f7ff1ca9e17d4a855661bf",
-      "download_count": 64,
+      "download_count": 72,
       "created_at": "2026-11-01T10:56:23Z",
       "updated_at": "2026-11-01T10:56:23Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-184/183.1_to_184.delta"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 1582874,
       "digest": "sha256:5c08439c9f669faba02286c951b3587d81dcf934e0bbb82ef693093547cf7a11",
-      "download_count": 106,
+      "download_count": 113,
       "created_at": "2026-11-01T10:56:23Z",
       "updated_at": "2026-11-01T10:56:23Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-184/183.2_to_184.delta"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 2835446,
       "digest": "sha256:149b3c6e90112fca61638613d1f66fcc71d8cc6285861c5207b9a2d91096e5f9",
-      "download_count": 10857,
+      "download_count": 11243,
       "created_at": "2026-11-01T10:56:23Z",
       "updated_at": "2026-11-01T10:56:23Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-184/183_to_184.delta"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 26360181,
       "digest": "sha256:9e980b758b3855deb8dca78b05335c85bfd3592a79d5d52ce104b3f20ed4f6e8",
-      "download_count": 8436,
+      "download_count": 8929,
       "created_at": "2026-11-01T10:56:23Z",
       "updated_at": "2026-11-01T10:56:25Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-184/MacVim.dmg"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 27371978,
       "digest": "sha256:02b70576fd6beb65267bd60856dee84692ca3a97e0d3c9d62af823673cd44240",
-      "download_count": 125,
+      "download_count": 137,
       "created_at": "2026-11-01T10:56:23Z",
       "updated_at": "2026-11-01T10:56:25Z",
       "browser_download_url": "https://github.com/macvim-dev/macvim/releases/download/release-184/MacVim_10.9.dmg"
